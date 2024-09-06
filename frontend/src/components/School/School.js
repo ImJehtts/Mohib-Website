@@ -4,9 +4,7 @@ import './School.css'
 
 const School = () => {
   return (
-    <div>
-      School
-    </div>
+    <section id ='School'>School</section>
   )
 }
 
