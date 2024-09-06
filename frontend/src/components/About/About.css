@@ -1,0 +1,66 @@
+#About{
+    margin-top: -425px;
+}
+
+.about__container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 32px;
+    display: grid;
+    place-items: center;
+}
+
+.about__me-photo{
+    border-radius: 32px;
+    overflow: hidden;
+    transform: translateX(28px);
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.about__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+    transition: var(--transition);
+    height: 25vh;
+}
+
+.about__card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+    color: var(--color-primary);
+}
+
+.about__icon {
+    color: var(--color-light);
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.about__card h5{
+    font-size: 20px;
+}
+
+.about__card small{
+    font-size: 14px;
+    color: var(--color-white);
+}
+
+.about__content p {
+    margin: 32px 0 42px;
+    color: var(--color-light);
+}

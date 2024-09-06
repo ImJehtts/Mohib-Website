@@ -1,0 +1,40 @@
+#Skills{
+    margin-top: -150px;
+}
+
+.skills__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    transform: translateX(280px);
+}
+
+.skills__container > div{
+    background: var(--color-bg-variant);
+    padding: 40px 80px;
+    border-radius: 32px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.skills__container > div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.skills__container > div h3{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.skills__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 32px;
+}
+
+.skills__details{
+    display: flex;
+    gap: 16px;
+}
