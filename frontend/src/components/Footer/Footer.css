@@ -1,0 +1,33 @@
+#footer__id{
+    margin-top: -500px;
+    height: 0.1px;
+}
+
+footer {
+    background: var(--color-primary);
+    padding: 80px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 112px;
+}
+
+footer a{
+    color: var(--color-bg);
+}
+
+.footer__name {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 28px;
+    display: block;
+}
+
+.footer__links{
+    color: var(--color-bg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    margin: 0 auto 90px;
+    font-size: 24px;
+}
