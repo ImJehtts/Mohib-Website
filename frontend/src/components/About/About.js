@@ -43,7 +43,7 @@ const About = () => {
         </article>
         </div>
         <p>
-          Hello this is about me and stuf
+        I’m Mohib Rehman, a junior computer science student at Wilfrid Laurier University with a passion for building practical applications. I’m currently seeking internship opportunities where I can apply my skills in either frontend and backend development, or a combination of the two. My role at Walmart’s Online Grocery department has taught me how to stay adaptable and efficient in high-pressure environments, all while sharpening my problem-solving abilities. In my spare time, I’m likely playing or watching sports, or enjoying a movie. I love working on projects that have real-world applications and give me the opportunity to learn something new. I’m always looking for ways to combine my technical knowledge with creativity to build something fun and useful.
         </p>
         </div>
       </div>
