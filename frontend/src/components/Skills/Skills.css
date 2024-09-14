@@ -1,12 +1,7 @@
-#Skills{
-    margin-top: -150px;
-}
-
 .skills__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
-    transform: translateX(280px);
 }
 
 .skills__container > div{

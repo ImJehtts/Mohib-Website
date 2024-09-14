@@ -1,12 +1,7 @@
-#Portfolio{
-    margin-top: -150px;
-}
-
 .portfolio__container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 40px;
-    transform: translateX(280px);
 }
 
 .project__item{

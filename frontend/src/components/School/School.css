@@ -1,12 +1,7 @@
-#School{
-    margin-top: -350px;
-}
-
 .school__container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 48px;
-    transform: translateX(280px);
 }
 
 .year{

@@ -7,7 +7,6 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
-    transform: translateX(280px);
 }
 
 .contact__options{
@@ -47,7 +46,7 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 19px;
+    gap: 20px;
 }
 
 input,
