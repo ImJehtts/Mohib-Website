@@ -23,7 +23,6 @@
     overflow: hidden;
     width: 450px;
     height: 400px;
-    transform: translateX(45px);
 }
 
 .project__item h3 {

@@ -80,10 +80,6 @@ section{
   height: 100vh;
 }
 
-#Skills{
-  margin-bottom: -300px;
-}
-
 section > h2, 
 section > h5{
   text-align: center;
