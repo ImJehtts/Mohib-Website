@@ -48,7 +48,6 @@ body{
 
 .container {
   width: var(--container-width-lg);
-  width: 0 auto;
 }
 
 h1,h2,h3,h4,h5{
