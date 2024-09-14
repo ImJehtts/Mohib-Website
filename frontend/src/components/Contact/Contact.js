@@ -13,8 +13,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(process.env.SERVICE_KEY, process.env.TEMPLATE_ID, form.current, {
-        publicKey: process.env.PUBLIC_KEY,
+      .sendForm(process.env.REACT_APP_SERVICE_KEY, process.env.REACT_APP_TEMPLATE_ID, form.current, {
+        publicKey: process.env.REACT_APP_PUBLIC_KEY,
       })
       .then(
         () => {
@@ -22,7 +22,7 @@ const Contact = () => {
         },
         (error) => {
           console.log('FAILED...', error.text);
-          console.log(process.env.SERVICE_KEY)
+          console.log(process.env.REACT_APP_SERVICE_KEY)
         },
       );
     e.target.reset()
