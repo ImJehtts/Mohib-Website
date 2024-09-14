@@ -13,8 +13,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(process.env.SERVICE_KEY, process.env.TEMPLATE_ID, form.current, {
-        publicKey: process.env.PUBLIC_KEY,
+      .sendForm(secrets.SERVICE_KEY, secrets.TEMPLATE_ID, form.current, {
+        publicKey: secrets.PUBLIC_KEY,
       })
       .then(
         () => {
