@@ -32,3 +32,11 @@ footer a{
     font-size: 24px;
     list-style-type: none
 }
+
+  /*Small Devices media queries*/
+  @media screen and (max-width: 600px){
+    .footer__links {
+        flex-direction: column;
+        gap: 24px;
+    }
+  }

@@ -35,3 +35,24 @@
     margin-bottom: 16px;
     justify-content: center;
 }
+
+/*Medium Devices media queries*/
+@media screen and (max-width: 1024px){
+
+    #Portfolio{
+        margin-top: 475px;
+    }
+
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 19px;
+    }
+  }
+  
+  /*Small Devices media queries*/
+  @media screen and (max-width: 600px){
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+  }

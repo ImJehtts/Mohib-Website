@@ -66,3 +66,19 @@ textarea{
     height: 200px;
     resize: none;
 }
+
+/*Medium Devices media queries*/
+@media screen and (max-width: 1024px){
+
+    .contact__container{
+        grid-template-columns: 1fr;
+        gap: 32px; 
+    }
+  }
+  
+  /*Small Devices media queries*/
+  @media screen and (max-width: 600px){
+    .contact__container {
+        width: var(--container-width-sm);
+    }
+  }

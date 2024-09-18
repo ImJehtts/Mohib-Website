@@ -48,3 +48,23 @@
 .class__list p {
     font-size: 21px;
 }
+
+/*Medium Devices media queries*/
+@media screen and (max-width: 1024px){
+    .school__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+    }
+
+    .year{
+        height: auto;
+    }
+  }
+  
+  /*Small Devices media queries*/
+  @media screen and (max-width: 600px){
+    .school__container{
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+  }

@@ -37,3 +37,38 @@
     display: flex;
     gap: 16px;
 }
+
+
+/*Medium Devices media queries*/
+@media screen and (max-width: 1024px){
+    #Skills{
+        margin-top: 300px;
+    }
+    
+    .skills__container{
+        grid-template-columns: 1fr;
+    }
+
+    .skills__container > div{
+        width:80%;
+        padding: 32px;
+        margin: 0 auto;
+    }
+
+    .skills__content{
+        padding: 16px;
+    }
+  }
+  
+  /*Small Devices media queries*/
+  @media screen and (max-width: 600px){
+    .skills__container{
+        gap: 16px;
+    }
+
+    .skills__container > div{
+        width:100%;
+        padding: 32px 16px;
+    }
+
+  }
