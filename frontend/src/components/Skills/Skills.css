@@ -1,17 +1,17 @@
 #Skills{
-    margin-top: 25px;
+    margin-top: 1.6rem;
 }
 
 .skills__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .skills__container > div{
     background: var(--color-bg-variant);
-    padding: 40px 80px;
-    border-radius: 32px;
+    padding: 2.5rem 5rem;
+    border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -24,18 +24,18 @@
 
 .skills__container > div h3{
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 .skills__content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 32px;
+    row-gap: 2rem;
 }
 
 .skills__details{
     display: flex;
-    gap: 16px;
+    gap: 1rem;
 }
 
 
@@ -51,12 +51,12 @@
 
     .skills__container > div{
         width:80%;
-        padding: 32px;
+        padding: 2rem;
         margin: 0 auto;
     }
 
     .skills__content{
-        padding: 16px;
+        padding: 1rem;
     }
   }
   
@@ -68,12 +68,12 @@
     }
     
     .skills__container{
-        gap: 16px;
+        gap: 1rem;
     }
 
     .skills__container > div{
         width:100%;
-        padding: 32px 16px;
+        padding: 2rem 1rem;
     }
 
   }

@@ -2,25 +2,25 @@ nav{
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
-    padding: 16px 32px;
+    padding: 1rem 2rem;
     z-index: 2;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 32px;
+    bottom: 2rem;
     display: flex;
-    gap: 20px;
-    border-radius: 22px;
-    backdrop-filter: blur(15px);
+    gap: 1.25rem;
+    border-radius: 1.375rem;
+    backdrop-filter: blur(0.95rem);
 }
 
 nav a {
     background: transparent;
-    padding: 16px;
+    padding: 1rem;
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 nav a:hover{

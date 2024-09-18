@@ -1,5 +1,5 @@
 #About{
-    margin-top: 50px;
+    margin-top: 3.2rem;
 }
 
 .about__container {
@@ -10,29 +10,29 @@
 
 .about__me{
     width: 100%;
-    border-radius: 32px;
+    border-radius: 2rem;
     display: grid;
     place-items: center;
 }
 
 .about__me-photo{
-    border-radius: 32px;
+    border-radius: 2rem;
     overflow: hidden;
-    transform: translateX(28px);
+    transform: translateX(1.75rem);
     height: 100%;
 }
 
 .about__cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .about__card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    border-radius: 16px;
-    padding: 32px;
+    border-radius: 1rem;
+    padding: 2rem;
     text-align: center;
     transition: var(--transition);
     height: 25vh;
@@ -47,23 +47,23 @@
 
 .about__icon {
     color: var(--color-light);
-    font-size: 28px;
-    margin-bottom: 12px;
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .about__card h5{
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .about__card small{
-    font-size: 18px;
+    font-size: 1.12rem;
     color: var(--color-white);
 }
 
 .about__content p {
-    margin: 32px 0 42px;
+    margin: 2rem 0 2.5rem;
     color: var(--color-light);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 p {
@@ -80,20 +80,20 @@ p {
 
     .about__me{
         width: 50%;
-        margin: 32px auto 64px;
+        margin: 2rem auto 4rem;
     }
 
     .about__content p {
-        margin: 16px 0 24px;
+        margin: 1rem 0 1.5rem;
     }
 
     .about__me-photo{
-        border-radius: 32px;
+        border-radius: 2rem;
         overflow: hidden;
         width: 70%;
         height: 100%;
         margin-top: -2rem;
-        transform: translateX(28px);
+        transform: translateX(1.75rem);
     }
 
   }
@@ -102,12 +102,12 @@ p {
   @media screen and (max-width: 600px){
     .about__me{
         width: 65%;
-        margin: 0 auto 48px;
+        margin: 0 auto 3rem;
     }
     
     .about__cards{
         grid-template-columns: 1fr 1fr;
-        gap: 16px;
+        gap: 1rem;
     }
 
     .about__content{
@@ -115,6 +115,6 @@ p {
     }
 
     .about__content p {
-        margin: 24px 0;
+        margin: 1.5rem 0;
     }
   }
