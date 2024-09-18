@@ -93,6 +93,7 @@ p {
         width: 70%;
         height: 100%;
         margin-top: -2rem;
+        transform: translateX(28px);
     }
 
   }
