@@ -1,6 +1,6 @@
 .portfolio__container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);  
     gap: 40px;
 }
 
@@ -10,6 +10,7 @@
     border-radius: 32px;
     border: 1px solid transparent;
     transition: var(--transition);
+
 }
 
 .project__item:hover{
@@ -21,8 +22,9 @@
 .project__item__image{
     border-radius: 15px;
     overflow: hidden;
-    width: 450px;
-    height: 400px;
+    width: 100%;
+    max-width: 450px;
+    max-height: 400px;
 }
 
 .project__item h3 {
@@ -37,14 +39,14 @@
 }
 
 /*Medium Devices media queries*/
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1800px){
 
     #Portfolio{
-        margin-top: 475px;
+        margin-top: 30rem;
     }
 
     .portfolio__container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 19px;
     }
   }
@@ -54,5 +56,10 @@
     .portfolio__container{
         grid-template-columns: 1fr;
         gap: 16px;
+    }
+
+    .project__item__image {
+        max-width: 100%;  
+        max-height: auto; 
     }
   }

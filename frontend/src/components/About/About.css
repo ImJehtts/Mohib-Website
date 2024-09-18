@@ -71,7 +71,7 @@ p {
 }
 
 /*Medium Devices media queries*/
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1800px){
     .about__container{
         grid-template-columns: 1fr;
         gap: 0;
