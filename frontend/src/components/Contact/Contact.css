@@ -71,7 +71,8 @@ textarea{
 @media screen and (max-width: 1800px){
 
     #Contact{
-        margin-top: 100rem;
+        margin-top: 120rem;
+        margin-bottom: 35rem;
     }
 
     .contact__container{
@@ -82,6 +83,12 @@ textarea{
   
   /*Small Devices media queries*/
   @media screen and (max-width: 600px){
+
+    #Contact{
+        margin-top: 120rem;
+        margin-bottom: 35rem;
+    }
+    
     .contact__container {
         width: var(--container-width-sm);
     }

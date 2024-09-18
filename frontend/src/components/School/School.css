@@ -51,6 +51,11 @@
 
 /*Medium Devices media queries*/
 @media screen and (max-width: 1800px){
+
+    #School{
+        margin-top: 22rem;
+    }
+
     .school__container{
         grid-template-columns: 1fr 1fr;
         gap: 32px;
@@ -63,6 +68,11 @@
   
   /*Small Devices media queries*/
   @media screen and (max-width: 600px){
+
+    #School{
+        margin-top: 22rem;
+    }
+    
     .school__container{
         grid-template-columns: 1fr;
         gap: 24px;

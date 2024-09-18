@@ -19,6 +19,7 @@
     border-radius: 32px;
     overflow: hidden;
     transform: translateX(28px);
+    height: 100%;
 }
 
 .about__cards{
@@ -85,6 +86,15 @@ p {
     .about__content p {
         margin: 16px 0 24px;
     }
+
+    .about__me-photo{
+        border-radius: 32px;
+        overflow: hidden;
+        width: 70%;
+        height: 100%;
+        margin-top: -2rem;
+    }
+
   }
   
   /*Small Devices media queries*/

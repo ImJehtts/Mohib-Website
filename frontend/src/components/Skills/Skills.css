@@ -42,7 +42,7 @@
 /*Medium Devices media queries*/
 @media screen and (max-width: 1800px){
     #Skills{
-        margin-top: 300px;
+        margin-top: 33rem;
     }
     
     .skills__container{
@@ -62,6 +62,11 @@
   
   /*Small Devices media queries*/
   @media screen and (max-width: 600px){
+    
+    #Skills{
+        margin-top: 33rem;
+    }
+    
     .skills__container{
         gap: 16px;
     }

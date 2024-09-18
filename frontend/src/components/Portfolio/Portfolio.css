@@ -42,7 +42,7 @@
 @media screen and (max-width: 1800px){
 
     #Portfolio{
-        margin-top: 30rem;
+        margin-top: 50rem;
     }
 
     .portfolio__container{
@@ -53,6 +53,11 @@
   
   /*Small Devices media queries*/
   @media screen and (max-width: 600px){
+
+    #Portfolio{
+        margin-top: 50rem;
+    }
+
     .portfolio__container{
         grid-template-columns: 1fr;
         gap: 16px;
