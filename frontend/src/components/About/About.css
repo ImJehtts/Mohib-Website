@@ -72,7 +72,7 @@ p {
 }
 
 /*Medium Devices media queries*/
-@media screen and (max-width: 1800px){
+@media screen and (max-width: 1950px){
     .about__container{
         grid-template-columns: 1fr;
         gap: 0;
@@ -96,10 +96,18 @@ p {
         transform: translateX(1.75rem);
     }
 
+    .about__card{
+        height: 35vh;
+    }
+
+    p{
+        margin-top: 3rem;
+    }
+
   }
   
   /*Small Devices media queries*/
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 850px){
     .about__me{
         width: 65%;
         margin: 0 auto 3rem;
@@ -116,5 +124,13 @@ p {
 
     .about__content p {
         margin: 1.5rem 0;
+    }
+    
+    .about__card{
+        height: 35vh;
+    }
+
+    p{
+        margin-top: 3rem;
     }
   }

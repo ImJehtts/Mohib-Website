@@ -10,7 +10,7 @@ import {FaPython} from "react-icons/fa";
 import {FaJava} from "react-icons/fa";
 import {FaNodeJs} from "react-icons/fa";
 import {TbHexagonLetterC} from "react-icons/tb";
-import {SiCsharp} from "react-icons/si";
+import {BsFiletypeSql} from "react-icons/bs";
 
 
 
@@ -104,9 +104,9 @@ const Skills = () => {
               </div>
             </article>
             <article className='skills__details'>
-              <SiCsharp/>
+              <BsFiletypeSql/>
               <div>
-              <h4>C#</h4>
+              <h4>SQL</h4>
               <small className='text-light'>Basic</small>
               </div>
             </article>
