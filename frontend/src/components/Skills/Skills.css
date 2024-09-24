@@ -43,7 +43,6 @@
 @media screen and (max-width: 1800px){
     #Skills{
         margin-top: 32rem;
-        justify-content: center;
     }
     
     .skills__container{
@@ -58,7 +57,6 @@
 
     .skills__content{
         padding: 1rem;
-        justify-items: center;
     }
   }
   
@@ -67,18 +65,15 @@
     
     #Skills{
         margin-top: 66.5rem;
-        text-align: center;
     }
     
     .skills__container{
         gap: 1rem;
-        justify-content: center;
     }
 
     .skills__container > div{
         width:100%;
         padding: 2rem 1rem;
-        margin: 0 auto;
     }
 
   }
