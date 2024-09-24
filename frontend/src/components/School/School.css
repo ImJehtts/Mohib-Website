@@ -50,10 +50,10 @@
 }
 
 /*Medium Devices media queries*/
-@media screen and (max-width: 1950px){
+@media screen and (max-width: 1800px){
 
     #School{
-        margin-top: 18rem;
+        margin-top: 21rem;
     }
 
     .school__container{
@@ -70,7 +70,7 @@
   @media screen and (max-width: 600px){
 
     #School{
-        margin-top: 64rem;
+        margin-top: 67rem;
     }
     
     .school__container{
