@@ -42,7 +42,7 @@
 @media screen and (max-width: 1850px){
 
     #Portfolio{
-        margin-top: 90rem;
+        margin-top: 120rem;
     }
 
     .portfolio__container{
@@ -55,7 +55,7 @@
   @media screen and (max-width: 650px){
 
     #Portfolio{
-        margin-top: 125rem;
+        margin-top: 150rem;
     }
 
     .portfolio__container{
