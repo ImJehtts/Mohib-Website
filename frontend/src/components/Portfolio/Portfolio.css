@@ -39,10 +39,10 @@
 }
 
 /*Medium Devices media queries*/
-@media screen and (max-width: 1800px){
+@media screen and (max-width: 1850px){
 
     #Portfolio{
-        margin-top: 50rem;
+        margin-top: 65rem;
     }
 
     .portfolio__container{
@@ -52,7 +52,7 @@
   }
   
   /*Small Devices media queries*/
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 650px){
 
     #Portfolio{
         margin-top: 125rem;
