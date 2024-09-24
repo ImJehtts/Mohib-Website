@@ -68,11 +68,11 @@
   }
   
   /*Small Devices media queries*/
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 650px){
 
     #School{
-        margin-top: 67rem;
-        margin-bottom: 20rem;
+        margin-top: 65rem;
+        margin-bottom: 28rem;
     }
     
     .school__container{
