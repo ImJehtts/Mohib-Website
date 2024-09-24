@@ -76,6 +76,7 @@ p {
     .about__container{
         grid-template-columns: 1fr;
         gap: 0;
+        justify-content: center;
     }
 
     .about__me{
@@ -93,11 +94,13 @@ p {
         width: 70%;
         height: 100%;
         margin-top: -2rem;
-        transform: translateX(1.25rem);
+        transform: translateX(1rem);
+        margin: 0 auto;
     }
 
     .about__card{
         height: 35vh;
+        margin: 0 auto;
     }
 
     p{
@@ -116,6 +119,7 @@ p {
     .about__cards{
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+        justify-items: center;
     }
 
     .about__content{
@@ -128,9 +132,11 @@ p {
     
     .about__card{
         height: 35vh;
+        margin: 0 auto;
     }
 
     p{
         margin-top: 3rem;
     }
   }
+
