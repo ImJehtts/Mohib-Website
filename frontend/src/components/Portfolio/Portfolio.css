@@ -57,7 +57,7 @@
     #Portfolio{
         margin-top: 212rem;
     }
-
+    
     .portfolio__container{
         grid-template-columns: 1fr;
         gap: 16px;

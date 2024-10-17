@@ -145,21 +145,11 @@ img{
 
 /*Small Devices media queries*/
 @media screen and (max-width: 600px){
-  body, section, h1, h2, p, div {
-    text-align: center;  
-    margin: 0 auto;      
-    padding: 0 10px;    
-  }
-
   .container{
     width: var(--container-width-sm);
-    text-align: center;  
-    margin: 0 auto;      
-    padding: 0 10px;  
   }
   
   section > h2{
     margin-top: 2rem;
   }
-  
 }
