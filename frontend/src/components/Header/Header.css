@@ -49,3 +49,31 @@ header {
     font-size: 0.95rem;
 }
 
+@media screen and (max-width: 600px){
+    header {
+        padding-top: 2rem; 
+      }
+    
+      .header__container {
+        text-align: center;
+        height: auto;
+        position: relative;
+      }
+    
+      .cta {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    
+      .header__socials {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -0.95rem;
+      }
+    
+      .scroll__down {
+        right: 50%;
+        transform: translateX(50%) rotate(90deg);
+        bottom: 1.5rem;
+      }
+}
