@@ -25,6 +25,8 @@
     width: 100%;
     max-width: 450px;
     max-height: 400px;
+    margin: 0 auto;
+    display: block;
 }
 
 .project__item h3 {
@@ -52,19 +54,35 @@
   }
   
   /*Small Devices media queries*/
-  @media screen and (max-width: 650px){
+  @media screen and (max-width: 600px){
 
     #Portfolio{
-        margin-top: 212rem;
+        margin-top: 210rem;
     }
     
     .portfolio__container{
         grid-template-columns: 1fr;
-        gap: 16px;
+        gap: 12px; 
     }
 
-    .project__item__image {
-        max-width: 100%;  
-        max-height: auto; 
+    .project__item {
+        padding: 12px; 
+        font-size: 16px; 
     }
+    
+    .project__item iframe {
+        width: 100%;  
+        height: auto; 
+        max-width: 350px; 
+        max-height: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+    .project__item h3 {
+        font-size: 18px; 
+        margin: 10px 0;  
+    }
+
   }

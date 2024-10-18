@@ -3,7 +3,6 @@ import './About.css'
 import Myself from '../../Assets/A2.PNG'
 import {IoHomeOutline} from "react-icons/io5";
 import {FaSchool} from "react-icons/fa6";
-import {SlCalender} from "react-icons/sl";
 import {PiStudent} from "react-icons/pi";
 
 
