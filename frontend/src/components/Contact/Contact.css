@@ -85,14 +85,14 @@ textarea{
   @media screen and (max-width: 600px){
 
     #Contact{
-        margin-top: 100rem;
+        margin-top: 95rem;
         margin-bottom: 30rem;
     }
     
     .contact__container {
         width: var(--container-width-sm);
         display: grid;
-        grid-template-columns: 37% 58%;
+        grid-template-columns: 42% 55%;
         gap: 5%;
     }
   }

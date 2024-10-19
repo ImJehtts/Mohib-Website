@@ -64,17 +64,12 @@ header {
       .cta {
         flex-direction: column;
         gap: 1rem;
-      }
-    
-      .header__socials {
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: -0.95rem;
+        align-items: center;
       }
     
       .scroll__down {
-        right: 50%;
         transform: translateX(50%) rotate(90deg);
-        bottom: 1.5rem;
+        bottom: 2.25rem;
+        font-size: 0.9rem;
       }
 }

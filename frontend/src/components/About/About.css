@@ -114,7 +114,7 @@ p {
     }
     
     .about__cards{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 
@@ -127,10 +127,23 @@ p {
     }
     
     .about__card{
-        height: 35vh;
+        height: 27vh;
+    }
+
+    .about__icon {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .about__card h5{
+        font-size: 1.25rem;
     }
 
     p{
         margin-top: 3rem;
+    }
+
+    .about__me-photo{
+        transform: translateX(0.25rem);
     }
   }
