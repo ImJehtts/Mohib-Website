@@ -59,10 +59,16 @@
         padding: 1rem;
     }
   }
+
+  @media screen and (max-width: 1250px){
+    #Skills{
+        margin-top: 25rem;
+    }
+  }
+  
   
   /*Small Devices media queries*/
   @media screen and (max-width: 600px){
-    
     #Skills{
         margin-top: 78rem;
     }
@@ -76,5 +82,10 @@
         width:100%;
         padding: 2rem 1rem;
     }
+  }
 
+  @media screen and (max-width: 400px){
+    #Skills{
+        margin-top: 88rem;
+    } 
   }

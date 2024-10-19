@@ -105,6 +105,26 @@ p {
     }
 
   }
+
+  @media screen and (max-width: 1250px){
+    .about__me-photo{
+        width: 100%;
+        height: 100%;
+    }
+
+    .about__card{
+        height: 20vh;
+    }
+
+    .about__icon {
+        font-size: 2.4rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .about__card h5{
+        font-size: 1.42rem;
+    }
+  }
   
   /*Small Devices media queries*/
   @media screen and (max-width: 600px){
@@ -127,16 +147,16 @@ p {
     }
     
     .about__card{
-        height: 27vh;
+        height: 23vh;
     }
 
     .about__icon {
-        font-size: 1.5rem;
+        font-size: 1.80rem;
         margin-bottom: 0.75rem;
     }
     
     .about__card h5{
-        font-size: 1.25rem;
+        font-size: 1.4rem;
     }
 
     p{
@@ -145,5 +165,20 @@ p {
 
     .about__me-photo{
         transform: translateX(0.25rem);
+    }
+  }
+
+  @media screen and (max-width: 400px){
+    .about__card{
+        height: 26vh;
+    }
+
+    .about__icon {
+        font-size: 1.3rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .about__card h5{
+        font-size: 1rem;
     }
   }

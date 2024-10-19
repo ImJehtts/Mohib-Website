@@ -69,6 +69,12 @@
         height: auto;
     }
   }
+
+  @media screen and (max-width: 1250px){
+    #School{
+        margin-top: 10rem;
+    }
+  }
   
   /*Small Devices media queries*/
   @media screen and (max-width: 650px){

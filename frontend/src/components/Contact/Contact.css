@@ -68,7 +68,7 @@ textarea{
 }
 
 /*Medium Devices media queries*/
-@media screen and (max-width: 1800px){
+@media screen and (max-width: 1850px){
 
     #Contact{
         margin-top: 120rem;
@@ -78,6 +78,13 @@ textarea{
     .contact__container{
         grid-template-columns: 1fr;
         gap: 2rem; 
+    }
+  }
+
+  @media screen and (max-width: 1250px){
+    #Contact{
+        margin-top: 218rem;
+        margin-bottom: 20rem;
     }
   }
   
@@ -94,5 +101,12 @@ textarea{
         display: grid;
         grid-template-columns: 42% 55%;
         gap: 5%;
+    }
+  }
+
+  @media screen and (max-width: 400px){
+    #Contact{
+        margin-top: 109rem;
+        margin-bottom: 36rem;
     }
   }

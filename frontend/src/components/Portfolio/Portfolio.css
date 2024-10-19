@@ -52,6 +52,17 @@
         gap: 19px;
     }
   }
+
+  
+  @media screen and (max-width: 1250px){
+    #Portfolio{
+        margin-top: 120rem;
+    }
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap: 1.25rem; 
+    }
+  }
   
   /*Small Devices media queries*/
   @media screen and (max-width: 600px){
@@ -85,4 +96,10 @@
         margin: 10px 0;  
     }
 
+  }
+
+  @media screen and (max-width: 400px){
+    #Portfolio{
+        margin-top: 221.5rem;
+    }
   }
