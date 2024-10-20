@@ -125,6 +125,12 @@ p {
         font-size: 1.42rem;
     }
   }
+
+  @media screen and (min-width: 900px) and (max-width: 1249px){
+    .about__card{
+        height: 28vh;
+    }
+}
   
   /*Small Devices media queries*/
   @media screen and (max-width: 600px){

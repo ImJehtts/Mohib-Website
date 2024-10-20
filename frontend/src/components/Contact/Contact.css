@@ -87,7 +87,14 @@ textarea{
         margin-bottom: 20rem;
     }
   }
-  
+
+  @media screen and (min-width: 900px) and (max-width: 1249px){
+    #Contact{
+        margin-top: 238rem;
+        margin-bottom: 38rem;
+    }
+  }
+
   /*Small Devices media queries*/
   @media screen and (max-width: 600px){
 
