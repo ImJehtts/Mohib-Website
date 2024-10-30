@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Mohib-Website/static/css/main.be4f9762.css",
-    "main.js": "/Mohib-Website/static/js/main.ba53bdca.js",
+    "main.js": "/Mohib-Website/static/js/main.273217d2.js",
     "static/media/A2.PNG": "/Mohib-Website/static/media/A2.6f56be460c8fd732475a.PNG",
-    "static/media/MohibRehman_Resume_F_2024.pdf": "/Mohib-Website/static/media/MohibRehman_Resume_F_2024.9c551bb6d7c0647b914b.pdf",
+    "static/media/MohibRehman_Resume_F_2024.pdf": "/Mohib-Website/static/media/MohibRehman_Resume_F_2024.51461f99f5434366acce.pdf",
     "index.html": "/Mohib-Website/index.html",
     "main.be4f9762.css.map": "/Mohib-Website/static/css/main.be4f9762.css.map",
-    "main.ba53bdca.js.map": "/Mohib-Website/static/js/main.ba53bdca.js.map"
+    "main.273217d2.js.map": "/Mohib-Website/static/js/main.273217d2.js.map"
   },
   "entrypoints": [
     "static/css/main.be4f9762.css",
-    "static/js/main.ba53bdca.js"
+    "static/js/main.273217d2.js"
   ]
 }
