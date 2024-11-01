@@ -39,7 +39,7 @@ const Contact = () => {
             <FaLinkedin className='contact__option__icon'/>
             <h4>Linkedin</h4>
             <h5>Mohib Rehman</h5>
-            <a href='https://www.linkedin.com/in/mohib-rehman-892930245/'>Let's Connect</a>
+            <a href='https://www.linkedin.com/in/mohreh'>Let's Connect</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
