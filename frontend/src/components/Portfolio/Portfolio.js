@@ -13,7 +13,7 @@ const Portfolio = () => {
           <iframe 
           width="450"
           height="400"
-          src="https://www.youtube.com/watch?v=qzaaFHuGV8U&ab_channel=MohibR" 
+          src="https://www.youtube.com/embed/qzaaFHuGV8U" 
           title="YouTube video player"
           allowFullScreen
           ></iframe>
