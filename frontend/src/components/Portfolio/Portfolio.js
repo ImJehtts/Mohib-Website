@@ -7,6 +7,24 @@ const Portfolio = () => {
       <h5>Portfolio</h5>
       <h2>My Projects</h2>
       <div className='container portfolio__container'>
+      <article className='project__item'>
+          <div className='project__item__image'>
+
+          <iframe 
+          width="450"
+          height="400"
+          src="https://www.youtube.com/watch?v=qzaaFHuGV8U" 
+          title="YouTube video player"
+          allowFullScreen
+          ></iframe>
+
+          </div>
+          <h3>AI-Interview-Simulator</h3>
+          <div className='project__item__cta'>
+            <a href='https://github.com/ImJehtts/Interview_Simulator' className='btn btn-primary'>Github</a>
+          </div>
+        </article>
+        {/*Project 1*/}
         <article className='project__item'>
           <div className='project__item__image'>
 
@@ -24,7 +42,7 @@ const Portfolio = () => {
             <a href='https://github.com/ImJehtts/Connections-Recreation' className='btn btn-primary'>Github</a>
           </div>
         </article>
-        {/*Project 1*/}
+        {/*Project 2*/}
         <article className='project__item'>
         <div className='project__item__image'>
 
@@ -42,7 +60,7 @@ const Portfolio = () => {
             <a href='https://github.com/ImJehtts/Spotify_PersonalWrap' className='btn btn-primary'>Github</a>
         </div>
         </article>
-        {/*Project 2*/}
+        {/*Project 3*/}
         <article className='project__item'>
         <div className='project__item__image'>
 
@@ -60,7 +78,7 @@ const Portfolio = () => {
             <a href='https://github.com/ImJehtts/BlackJack' className='btn btn-primary'>Github</a>
           </div>
         </article>
-        {/*Project 3*/}
+        {/*Project 4*/}
         <article className='project__item'>
         <div className='project__item__image'>
 
@@ -78,7 +96,7 @@ const Portfolio = () => {
             <a href='https://github.com/ImJehtts/Needtoeat' className='btn btn-primary'>Github</a>
           </div>
         </article>
-        {/*Project 4*/}
+        {/*Project 5*/}
         <article className='project__item'>
         <div className='project__item__image'>
 
@@ -96,7 +114,7 @@ const Portfolio = () => {
             <a href='https://github.com/ImJehtts/Pomodoro-with-Todo-list' className='btn btn-primary'>Github</a>
           </div>
         </article>
-        {/*Project 5*/}
+        {/*Project 6*/}
         <article className='project__item'>
         <div className='project__item__image'>
 
@@ -114,7 +132,7 @@ const Portfolio = () => {
             <a href='https://github.com/ImJehtts/SearchEnginesProject_Mohib' className='btn btn-primary'>Github</a>
           </div>
         </article>
-        {/*Project 6*/}
+        {/*Project 7*/}
         <article className='project__item'>
         <div className='project__item__image'>
 
@@ -132,7 +150,7 @@ const Portfolio = () => {
             <a href='https://github.com/ImJehtts/CalculatorProject' className='btn btn-primary'>Github</a>
           </div>
         </article>
-        {/*Project 7*/}
+        {/*Project 8*/}
       </div>
     </section>
 
