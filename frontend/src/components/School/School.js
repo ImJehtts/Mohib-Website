@@ -116,43 +116,43 @@ const School = () => {
           </div>
           <ul className='class__list'>
             <li>
-              <RiProgress5Line className='class__list_icon'/>
+              <RiProgress8Line className='class__list_icon'/>
               <p>Algorithm Design/Analysis I</p>
             </li>
             <li>
-              <RiProgress5Line className='class__list_icon'/>
+              <RiProgress8Line className='class__list_icon'/>
               <p>Computer Networks</p>
             </li>
             <li>
-              <RiProgress5Line className='class__list_icon'/>
+              <RiProgress8Line className='class__list_icon'/>
               <p>Database I</p>
             </li>
             <li>
-              <RiProgress5Line className='class__list_icon'/>
+              <RiProgress8Line className='class__list_icon'/>
               <p>E-commerce</p>
             </li>
             <li>
-              <RiProgress5Line className='class__list_icon'/>
+              <RiProgress8Line className='class__list_icon'/>
               <p>Learn 280 Characters or Less</p>
             </li>
             <li>
-              <RiProgress2Line className='class__list_icon'/>
+              <RiProgress5Line className='class__list_icon'/>
               <p>Software Engineering</p>
             </li>
             <li>
-              <RiProgress2Line className='class__list_icon'/>
+              <RiProgress5line className='class__list_icon'/>
               <p>Operating Systems</p>
             </li>
             <li>
-              <RiProgress2Line className='class__list_icon'/>
+              <RiProgress5Line className='class__list_icon'/>
               <p>Ethics & Professional Practice</p>
             </li>
             <li>
-              <RiProgress2Line className='class__list_icon'/>
+              <RiProgress5Line className='class__list_icon'/>
               <p>Data Visualization</p>
             </li>
             <li>
-              <RiProgress2Line className='class__list_icon'/>
+              <RiProgress5Line className='class__list_icon'/>
               <p>International Finance</p>
             </li>
           </ul>
