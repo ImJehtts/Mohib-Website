@@ -140,7 +140,7 @@ const School = () => {
               <p>Software Engineering</p>
             </li>
             <li>
-              <RiProgress5line className='class__list_icon'/>
+              <RiProgress5Line className='class__list_icon'/>
               <p>Operating Systems</p>
             </li>
             <li>
