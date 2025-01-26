@@ -2,7 +2,6 @@ import React from 'react'
 import './School.css'
 import {RiProgress8Line} from "react-icons/ri";
 import {RiProgress5Line} from "react-icons/ri";
-import {RiProgress2Line} from "react-icons/ri";
 
 
 
@@ -140,7 +139,7 @@ const School = () => {
               <p>Software Engineering</p>
             </li>
             <li>
-              <RiProgress5line className='class__list_icon'/>
+              <RiProgress5Line className='class__list_icon'/>
               <p>Operating Systems</p>
             </li>
             <li>
