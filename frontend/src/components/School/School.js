@@ -2,7 +2,6 @@ import React from 'react'
 import './School.css'
 import {RiProgress8Line} from "react-icons/ri";
 import {RiProgress5Line} from "react-icons/ri";
-import {RiProgress2Line} from "react-icons/ri";
 
 
 
