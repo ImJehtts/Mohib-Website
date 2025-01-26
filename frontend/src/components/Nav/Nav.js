@@ -12,7 +12,7 @@ import {MdOutlineMessage} from "react-icons/md"
 const Nav = () => {
   return (
     <nav>
-      <a href='#'><AiOutlineHome/></a>
+      <a href='#Header'><AiOutlineHome/></a>
       <a href='#About'><AiOutlineUser/></a>
       <a href='#Skills'><PiScroll/></a>
       <a href='#School'><MdOutlineSchool/></a>
