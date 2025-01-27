@@ -81,17 +81,24 @@ textarea{
     }
   }
 
-  @media screen and (max-width: 1250px){
-    #Contact{
-        margin-top: 238rem;
-        margin-bottom: 28rem;
-    }
-  }
-
-  @media screen and (min-width: 900px) and (max-width: 1249px){
+  @media screen and (max-width: 1400px){
     #Contact{
         margin-top: 258rem;
         margin-bottom: 40rem;
+    }
+  }
+
+  @media screen and (max-width: 1200px){
+    #Contact{
+        margin-top: 285rem;
+        margin-bottom: 40rem;
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+    #Contact{
+        margin-top: 320rem;
+        margin-bottom: 75rem;
     }
   }
 
@@ -99,7 +106,7 @@ textarea{
   @media screen and (max-width: 600px){
 
     #Contact{
-        margin-top: 115rem;
+        margin-top: 150rem;
         margin-bottom: 35rem;
     }
     
