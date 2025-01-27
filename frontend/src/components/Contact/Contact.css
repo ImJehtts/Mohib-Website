@@ -83,15 +83,15 @@ textarea{
 
   @media screen and (max-width: 1250px){
     #Contact{
-        margin-top: 218rem;
-        margin-bottom: 20rem;
+        margin-top: 238rem;
+        margin-bottom: 28rem;
     }
   }
 
   @media screen and (min-width: 900px) and (max-width: 1249px){
     #Contact{
-        margin-top: 238rem;
-        margin-bottom: 38rem;
+        margin-top: 258rem;
+        margin-bottom: 40rem;
     }
   }
 
@@ -99,8 +99,8 @@ textarea{
   @media screen and (max-width: 600px){
 
     #Contact{
-        margin-top: 95rem;
-        margin-bottom: 30rem;
+        margin-top: 115rem;
+        margin-bottom: 35rem;
     }
     
     .contact__container {
@@ -113,7 +113,7 @@ textarea{
 
   @media screen and (max-width: 400px){
     #Contact{
-        margin-top: 109rem;
-        margin-bottom: 36rem;
+        margin-top: 130rem;
+        margin-bottom: 45rem;
     }
   }
