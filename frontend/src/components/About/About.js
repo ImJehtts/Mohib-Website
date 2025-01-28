@@ -38,7 +38,7 @@ const About = () => {
         <article className='about__card'>
           <PiStudent className='about__icon'/>
           <h5>Program:</h5>
-          <small>Bachelor's of Computer Science Degree</small>
+          <small>Bachelor's of Computer Science</small>
         </article>
         </div>
         <p>
