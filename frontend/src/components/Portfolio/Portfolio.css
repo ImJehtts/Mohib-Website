@@ -56,7 +56,17 @@
   
   @media screen and (max-width: 1250px){
     #Portfolio{
-        margin-top: 125rem;
+        margin-top: 132rem;
+    }
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap: 1.25rem; 
+    }
+  }
+
+  @media screen and (max-width: 870px){
+    #Portfolio{
+        margin-top: 155rem;
     }
     .portfolio__container{
         grid-template-columns: 1fr;

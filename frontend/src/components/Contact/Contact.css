@@ -95,17 +95,11 @@ textarea{
     }
   }
 
+
   @media screen and (max-width: 1250px){
     #Contact{
-        margin-top: 265rem;
-        margin-bottom: 65rem;
-    }
-  }
-
-  @media screen and (max-width: 1200px){
-    #Contact{
         margin-top: 280rem;
-        margin-bottom: 40rem;
+        margin-bottom: 50rem;
     }
   }
 
