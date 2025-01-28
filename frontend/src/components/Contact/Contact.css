@@ -83,21 +83,21 @@ textarea{
 
   @media screen and (max-width: 1400px){
     #Contact{
-        margin-top: 258rem;
+        margin-top: 210rem;
         margin-bottom: 40rem;
     }
   }
 
   @media screen and (max-width: 1200px){
     #Contact{
-        margin-top: 285rem;
+        margin-top: 305rem;
         margin-bottom: 40rem;
     }
   }
 
   @media screen and (max-width: 1000px){
     #Contact{
-        margin-top: 265rem;
+        margin-top: 295rem;
         margin-bottom: 50rem;
     }
   }
