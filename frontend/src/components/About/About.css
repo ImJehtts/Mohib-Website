@@ -140,6 +140,14 @@ p {
     .about__card{
         height: 25vh;
     }
+
+    .about__card h5{
+        font-size: 1.3rem;
+    }
+
+    .about__icon {
+        font-size: 1.5rem;
+    }
 }
   
   /*Small Devices media queries*/
