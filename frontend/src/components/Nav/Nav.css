@@ -29,13 +29,13 @@ nav a:hover{
 
 @media screen and (min-width: 1001px) and (max-width: 1200px){
     nav{
-        width: 66%;
-        padding: 1rem 1.2rem;
-        gap: 2.8rem;
+        width: 69%;
+        padding: 1rem 1.1rem;
+        gap: 2.6rem;
     }
 
     nav a {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 
 }

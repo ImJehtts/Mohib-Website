@@ -81,6 +81,12 @@
         margin-top: 28rem;
     }
   }
+
+  @media screen and (min-width: 601px) and (max-width: 899px){
+    #School{
+        margin-top: 20rem;
+    }
+  }
   
   /*Small Devices media queries*/
   @media screen and (max-width: 650px){
